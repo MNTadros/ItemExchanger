@@ -1,0 +1,4 @@
+name: ItemExchanger
+version: '${project.version}'
+main: me.empty.itemexchanger.ItemExchanger
+api-version: 1.20
