@@ -10,13 +10,13 @@ public final class ItemExchanger extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getCommand("exchanger").setExecutor(new OpenItemExchanger());
-        getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "§l[ItemExchanger] §6Plugin enabled");
+        getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "§l[ItemExchanger] §6Plugin enabled!");
 
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        getServer().getConsoleSender().sendMessage(ChatColor.RED + "§l[ItemExchanger] §6Plugin disabled");
+        getServer().getConsoleSender().sendMessage(ChatColor.RED + "§l[ItemExchanger] §6Plugin disabled!");
     }
 }
