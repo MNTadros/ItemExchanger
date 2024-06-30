@@ -14,9 +14,6 @@ public final class ItemExchanger extends JavaPlugin {
     @Override
     public void onDisable() {
         System.out.println("Disabled!");
-
         // Plugin shutdown logic
     }
 }
-
-//inital
