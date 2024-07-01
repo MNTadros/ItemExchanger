@@ -8,3 +8,755 @@
 #    lore:
 #      1: ""
 test: "x"
+items:
+  slot1:
+    name: "Iron Sword"
+    material: IRON_SWORD
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Reliable melee weapon"
+
+  slot2:
+    name: "Diamond Sword"
+    material: DIAMOND_SWORD
+    price: 4
+    currency: GOLD_INGOT
+    lore:
+      1: "Superior melee weapon"
+
+  slot3:
+    name: "Bow"
+    material: BOW
+    price: 3
+    currency: IRON_NUGGET
+    lore:
+      1: "Long-range weapon"
+
+  slot4:
+    name: "Crossbow"
+    material: CROSSBOW
+    price: 4
+    currency: IRON_NUGGET
+    lore:
+      1: "Enhanced long-range weapon"
+
+  slot5:
+    name: "Trident"
+    material: TRIDENT
+    price: 6
+    currency: GOLD_INGOT
+    lore:
+      1: "Powerful melee and ranged weapon"
+
+  slot6:
+    name: "Shield"
+    material: SHIELD
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Basic defense tool"
+
+  slot7:
+    name: "Flint and Steel"
+    material: FLINT_AND_STEEL
+    price: 1
+    currency: IRON_NUGGET
+    lore:
+      1: "Starts fires"
+
+  slot8:
+    name: "Fishing Rod"
+    material: FISHING_ROD
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Catches fish"
+
+  slot9:
+    name: "Shears"
+    material: SHEARS
+    price: 1
+    currency: IRON_INGOT
+    lore:
+      1: "Collects wool and other items"
+
+  slot10:
+    name: "Clock"
+    material: CLOCK
+    price: 3
+    currency: GOLD_NUGGET
+    lore:
+      1: "Tells in-game time"
+
+  slot11:
+    name: "Compass"
+    material: COMPASS
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Points to world spawn"
+
+  slot12:
+    name: "Spyglass"
+    material: SPYGLASS
+    price: 3
+    currency: GOLD_INGOT
+    lore:
+      1: "Zooms in on distant objects"
+
+  slot13:
+    name: "Lead"
+    material: LEAD
+    price: 1
+    currency: IRON_NUGGET
+    lore:
+      1: "Leads mobs"
+
+  slot14:
+    name: "Name Tag"
+    material: NAME_TAG
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Names mobs"
+
+  slot15:
+    name: "Saddle"
+    material: SADDLE
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Rides horses and pigs"
+
+  slot16:
+    name: "Horse Armor (Iron)"
+    material: IRON_HORSE_ARMOR
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Protects horses"
+
+  slot17:
+    name: "Horse Armor (Gold)"
+    material: GOLDEN_HORSE_ARMOR
+    price: 3
+    currency: GOLD_INGOT
+    lore:
+      1: "Protects horses"
+
+  slot18:
+    name: "Horse Armor (Diamond)"
+    material: DIAMOND_HORSE_ARMOR
+    price: 4
+    currency: GOLD_INGOT
+    lore:
+      1: "Protects horses"
+
+  slot19:
+    name: "Map"
+    material: MAP
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Displays explored terrain"
+
+  slot20:
+    name: "Ender Pearl"
+    material: ENDER_PEARL
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Teleports you"
+
+  slot21:
+    name: "Eye of Ender"
+    material: ENDER_EYE
+    price: 4
+    currency: IRON_INGOT
+    lore:
+      1: "Locates strongholds"
+
+  slot22:
+    name: "Potion of Healing"
+    material: POTION
+    price: 2
+    currency: GOLD_NUGGET
+    lore:
+      1: "Restores health"
+
+  slot23:
+    name: "Potion of Strength"
+    material: POTION
+    price: 3
+    currency: GOLD_NUGGET
+    lore:
+      1: "Increases melee damage"
+
+  slot24:
+    name: "Potion of Swiftness"
+    material: POTION
+    price: 2
+    currency: GOLD_NUGGET
+    lore:
+      1: "Increases speed"
+
+  slot25:
+    name: "Potion of Fire Resistance"
+    material: POTION
+    price: 2
+    currency: GOLD_NUGGET
+    lore:
+      1: "Grants fire resistance"
+
+  slot26:
+    name: "Potion of Night Vision"
+    material: POTION
+    price: 2
+    currency: GOLD_NUGGET
+    lore:
+      1: "Grants night vision"
+
+  slot27:
+    name: "Potion of Water Breathing"
+    material: POTION
+    price: 2
+    currency: GOLD_NUGGET
+    lore:
+      1: "Grants water breathing"
+
+  slot28:
+    name: "Enchanted Golden Apple"
+    material: ENCHANTED_GOLDEN_APPLE
+    price: 5
+    currency: GOLD_BLOCK
+    lore:
+      1: "Provides powerful buffs"
+
+redstone:
+  slot1:
+    name: "Redstone Dust"
+    material: REDSTONE
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Basic redstone component"
+
+  slot2:
+    name: "Redstone Torch"
+    material: REDSTONE_TORCH
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "A basic light source and signal transmitter"
+
+  slot3:
+    name: "Redstone Block"
+    material: REDSTONE_BLOCK
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Compact storage and power source"
+
+  slot4:
+    name: "Redstone Repeater"
+    material: REPEATER
+    price: 4
+    currency: IRON_NUGGET
+    lore:
+      1: "Extends redstone signals"
+
+  slot5:
+    name: "Redstone Comparator"
+    material: COMPARATOR
+    price: 6
+    currency: IRON_NUGGET
+    lore:
+      1: "Compares redstone signals"
+
+  slot6:
+    name: "Lever"
+    material: LEVER
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Simple on/off switch"
+
+  slot7:
+    name: "Button (Stone)"
+    material: STONE_BUTTON
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Temporary power switch"
+
+  slot8:
+    name: "Button (Wood)"
+    material: OAK_BUTTON
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Temporary power switch"
+
+  slot9:
+    name: "Pressure Plate (Stone)"
+    material: STONE_PRESSURE_PLATE
+    price: 3
+    currency: IRON_NUGGET
+    lore:
+      1: "Trigger power with weight"
+
+  slot10:
+    name: "Pressure Plate (Wood)"
+    material: OAK_PRESSURE_PLATE
+    price: 3
+    currency: IRON_NUGGET
+    lore:
+      1: "Trigger power with weight"
+
+  slot11:
+    name: "Iron Door"
+    material: IRON_DOOR
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "A sturdy door for security"
+
+  slot12:
+    name: "Wooden Door"
+    material: OAK_DOOR
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "A simple wooden door"
+
+  slot13:
+    name: "Piston"
+    material: PISTON
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "A pushing mechanism"
+
+  slot14:
+    name: "Sticky Piston"
+    material: STICKY_PISTON
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "A pulling mechanism with adhesive"
+
+  slot15:
+    name: "Observer"
+    material: OBSERVER
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Detects block changes"
+
+  slot16:
+    name: "Dropper"
+    material: DROPPER
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Drops items upon activation"
+
+  slot17:
+    name: "Dispenser"
+    material: DISPENSER
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Shoots items upon activation"
+
+  slot18:
+    name: "Hopper"
+    material: HOPPER
+    price: 4
+    currency: IRON_INGOT
+    lore:
+      1: "Transfers items"
+
+  slot19:
+    name: "Note Block"
+    material: NOTE_BLOCK
+    price: 3
+    currency: IRON_NUGGET
+    lore:
+      1: "Plays musical notes"
+
+  slot20:
+    name: "Jukebox"
+    material: JUKEBOX
+    price: 2
+    currency: GOLD_NUGGET
+    lore:
+      1: "Plays music discs"
+
+  slot21:
+    name: "Daylight Sensor"
+    material: DAYLIGHT_DETECTOR
+    price: 4
+    currency: IRON_NUGGET
+    lore:
+      1: "Detects daylight"
+
+  slot22:
+    name: "Iron Trapdoor"
+    material: IRON_TRAPDOOR
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "A sturdy trapdoor"
+
+  slot23:
+    name: "Wooden Trapdoor"
+    material: OAK_TRAPDOOR
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "A simple wooden trapdoor"
+
+  slot24:
+    name: "Tripwire Hook"
+    material: TRIPWIRE_HOOK
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Activates redstone with string"
+
+  slot25:
+    name: "Redstone Lamp"
+    material: REDSTONE_LAMP
+    price: 2
+    currency: GOLD_INGOT
+    lore:
+      1: "Emits light when powered"
+
+  slot26:
+    name: "Target"
+    material: TARGET
+    price: 3
+    currency: IRON_NUGGET
+    lore:
+      1: "Emits redstone signal when hit"
+
+  slot27:
+    name: "Minecart with Hopper"
+    material: HOPPER_MINECART
+    price: 5
+    currency: IRON_INGOT
+    lore:
+      1: "Transfers items in motion"
+
+  slot28:
+    name: "Minecart with TNT"
+    material: TNT_MINECART
+    price: 4
+    currency: IRON_INGOT
+    lore:
+      1: "Explosive minecart"
+
+spawneggs:
+  slot1:
+    name: "Creeper Spawn Egg"
+    material: CREEPER_SPAWN_EGG
+    price: 3
+    currency: GOLD_BLOCK
+    lore:
+      - "§fAn explosive creature!"
+      - ""
+      - "§3§lBuy: §f3 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+  slot2:
+    name: "Wolf Spawn Egg"
+    material: WOLF_SPAWN_EGG
+    price: 20
+    currency: GOLD_BLOCK
+    lore:
+      - "§fA furry friend!"
+      - ""
+      - "§3§lBuy: §f2 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+  slot3:
+    name: "Phantom Spawn Egg"
+    material: PHANTOM_SPAWN_EGG
+    price: 4
+    currency: GOLD_BLOCK
+    lore:
+      - "§fA flying menace!"
+      - ""
+      - "§3§lBuy: §f4 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+  slot4:
+    name: "Blaze Spawn Egg"
+    material: BLAZE_SPAWN_EGG
+    price: 5
+    currency: GOLD_BLOCK
+    lore:
+      - "§fA fiery creature!"
+      - ""
+      - "§3§lBuy: §f5 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+  slot5:
+    name: "Guardian Spawn Egg"
+    material: GUARDIAN_SPAWN_EGG
+    price: 3
+    currency: GOLD_BLOCK
+    lore:
+      - "§fA water creature!"
+      - ""
+      - "§3§lBuy: §f3 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+  slot6:
+    name: "Zombie Villager Spawn Egg"
+    material: ZOMBIE_VILLAGER_SPAWN_EGG
+    price: 2
+    currency: GOLD_BLOCK
+    lore:
+      - "§fA zombie villager!"
+      - ""
+      - "§3§lBuy: §f2 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+  slot7:
+    name: "Bee Spawn Egg"
+    material: BEE_SPAWN_EGG
+    price: 3
+    currency: GOLD_BLOCK
+    lore:
+      - "§fA dangerous insect!"
+      - ""
+      - "§3§lBuy: §f3 Gold Blocks"
+      - "§3§lSell: §4§lNOT SELLABLE"
+
+armor:
+  slot1:
+    name: "Leather Helmet"
+    material: LEATHER_HELMET
+    price: 1
+    currency: IRON_NUGGET
+    lore:
+      1: "Basic head protection"
+
+  slot2:
+    name: "Leather Chestplate"
+    material: LEATHER_CHESTPLATE
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Basic body protection"
+
+  slot3:
+    name: "Leather Leggings"
+    material: LEATHER_LEGGINGS
+    price: 2
+    currency: IRON_NUGGET
+    lore:
+      1: "Basic leg protection"
+
+  slot4:
+    name: "Leather Boots"
+    material: LEATHER_BOOTS
+    price: 1
+    currency: IRON_NUGGET
+    lore:
+      1: "Basic foot protection"
+
+  slot5:
+    name: "Chainmail Helmet"
+    material: CHAINMAIL_HELMET
+    price: 1
+    currency: IRON_INGOT
+    lore:
+      1: "Intermediate head protection"
+
+  slot6:
+    name: "Chainmail Chestplate"
+    material: CHAINMAIL_CHESTPLATE
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Intermediate body protection"
+
+  slot7:
+    name: "Chainmail Leggings"
+    material: CHAINMAIL_LEGGINGS
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Intermediate leg protection"
+
+  slot8:
+    name: "Chainmail Boots"
+    material: CHAINMAIL_BOOTS
+    price: 1
+    currency: IRON_INGOT
+    lore:
+      1: "Intermediate foot protection"
+
+  slot9:
+    name: "Iron Helmet"
+    material: IRON_HELMET
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Standard head protection"
+
+  slot10:
+    name: "Iron Chestplate"
+    material: IRON_CHESTPLATE
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Standard body protection"
+
+  slot11:
+    name: "Iron Leggings"
+    material: IRON_LEGGINGS
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Standard leg protection"
+
+  slot12:
+    name: "Iron Boots"
+    material: IRON_BOOTS
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Standard foot protection"
+
+  slot13:
+    name: "Golden Helmet"
+    material: GOLDEN_HELMET
+    price: 2
+    currency: GOLD_INGOT
+    lore:
+      1: "Luxurious head protection"
+
+  slot14:
+    name: "Golden Chestplate"
+    material: GOLDEN_CHESTPLATE
+    price: 3
+    currency: GOLD_INGOT
+    lore:
+      1: "Luxurious body protection"
+
+  slot15:
+    name: "Golden Leggings"
+    material: GOLDEN_LEGGINGS
+    price: 3
+    currency: GOLD_INGOT
+    lore:
+      1: "Luxurious leg protection"
+
+  slot16:
+    name: "Golden Boots"
+    material: GOLDEN_BOOTS
+    price: 2
+    currency: GOLD_INGOT
+    lore:
+      1: "Luxurious foot protection"
+
+  slot17:
+    name: "Diamond Helmet"
+    material: DIAMOND_HELMET
+    price: 4
+    currency: GOLD_INGOT
+    lore:
+      1: "Superior head protection"
+
+  slot18:
+    name: "Diamond Chestplate"
+    material: DIAMOND_CHESTPLATE
+    price: 6
+    currency: GOLD_INGOT
+    lore:
+      1: "Superior body protection"
+
+  slot19:
+    name: "Diamond Leggings"
+    material: DIAMOND_LEGGINGS
+    price: 6
+    currency: GOLD_INGOT
+    lore:
+      1: "Superior leg protection"
+
+  slot20:
+    name: "Diamond Boots"
+    material: DIAMOND_BOOTS
+    price: 4
+    currency: GOLD_INGOT
+    lore:
+      1: "Superior foot protection"
+
+  slot21:
+    name: "Netherite Helmet"
+    material: NETHERITE_HELMET
+    price: 4
+    currency: GOLD_BLOCK
+    lore:
+      1: "Ultimate head protection"
+
+  slot22:
+    name: "Netherite Chestplate"
+    material: NETHERITE_CHESTPLATE
+    price: 6
+    currency: GOLD_BLOCK
+    lore:
+      1: "Ultimate body protection"
+
+  slot23:
+    name: "Netherite Leggings"
+    material: NETHERITE_LEGGINGS
+    price: 6
+    currency: GOLD_BLOCK
+    lore:
+      1: "Ultimate leg protection"
+
+  slot24:
+    name: "Netherite Boots"
+    material: NETHERITE_BOOTS
+    price: 4
+    currency: GOLD_BLOCK
+    lore:
+      1: "Ultimate foot protection"
+
+  slot25:
+    name: "Turtle Shell"
+    material: TURTLE_HELMET
+    price: 3
+    currency: IRON_INGOT
+    lore:
+      1: "Underwater breathing headgear"
+
+  slot26:
+    name: "Elytra"
+    material: ELYTRA
+    price: 6
+    currency: GOLD_BLOCK
+    lore:
+      1: "Wings for gliding"
+
+  slot27:
+    name: "Shield"
+    material: SHIELD
+    price: 2
+    currency: IRON_INGOT
+    lore:
+      1: "Basic defense tool"
+
+  slot28:
+    name: "Totem of Undying"
+    material: TOTEM_OF_UNDYING
+    price: 5
+    currency: GOLD_BLOCK
+    lore:
+      1: "Saves you from death"

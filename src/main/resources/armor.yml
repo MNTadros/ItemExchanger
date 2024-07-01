@@ -1,0 +1,223 @@
+slot1:
+  name: "Leather Helmet"
+  material: LEATHER_HELMET
+  price: 1
+  currency: IRON_NUGGET
+  lore:
+    1: "Basic head protection"
+
+slot2:
+  name: "Leather Chestplate"
+  material: LEATHER_CHESTPLATE
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Basic body protection"
+
+slot3:
+  name: "Leather Leggings"
+  material: LEATHER_LEGGINGS
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Basic leg protection"
+
+slot4:
+  name: "Leather Boots"
+  material: LEATHER_BOOTS
+  price: 1
+  currency: IRON_NUGGET
+  lore:
+    1: "Basic foot protection"
+
+slot5:
+  name: "Chainmail Helmet"
+  material: CHAINMAIL_HELMET
+  price: 1
+  currency: IRON_INGOT
+  lore:
+    1: "Intermediate head protection"
+
+slot6:
+  name: "Chainmail Chestplate"
+  material: CHAINMAIL_CHESTPLATE
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Intermediate body protection"
+
+slot7:
+  name: "Chainmail Leggings"
+  material: CHAINMAIL_LEGGINGS
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Intermediate leg protection"
+
+slot8:
+  name: "Chainmail Boots"
+  material: CHAINMAIL_BOOTS
+  price: 1
+  currency: IRON_INGOT
+  lore:
+    1: "Intermediate foot protection"
+
+slot9:
+  name: "Iron Helmet"
+  material: IRON_HELMET
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Standard head protection"
+
+slot10:
+  name: "Iron Chestplate"
+  material: IRON_CHESTPLATE
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "Standard body protection"
+
+slot11:
+  name: "Iron Leggings"
+  material: IRON_LEGGINGS
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "Standard leg protection"
+
+slot12:
+  name: "Iron Boots"
+  material: IRON_BOOTS
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Standard foot protection"
+
+slot13:
+  name: "Golden Helmet"
+  material: GOLDEN_HELMET
+  price: 2
+  currency: GOLD_INGOT
+  lore:
+    1: "Luxurious head protection"
+
+slot14:
+  name: "Golden Chestplate"
+  material: GOLDEN_CHESTPLATE
+  price: 3
+  currency: GOLD_INGOT
+  lore:
+    1: "Luxurious body protection"
+
+slot15:
+  name: "Golden Leggings"
+  material: GOLDEN_LEGGINGS
+  price: 3
+  currency: GOLD_INGOT
+  lore:
+    1: "Luxurious leg protection"
+
+slot16:
+  name: "Golden Boots"
+  material: GOLDEN_BOOTS
+  price: 2
+  currency: GOLD_INGOT
+  lore:
+    1: "Luxurious foot protection"
+
+slot17:
+  name: "Diamond Helmet"
+  material: DIAMOND_HELMET
+  price: 4
+  currency: GOLD_INGOT
+  lore:
+    1: "Superior head protection"
+
+slot18:
+  name: "Diamond Chestplate"
+  material: DIAMOND_CHESTPLATE
+  price: 6
+  currency: GOLD_INGOT
+  lore:
+    1: "Superior body protection"
+
+slot19:
+  name: "Diamond Leggings"
+  material: DIAMOND_LEGGINGS
+  price: 6
+  currency: GOLD_INGOT
+  lore:
+    1: "Superior leg protection"
+
+slot20:
+  name: "Diamond Boots"
+  material: DIAMOND_BOOTS
+  price: 4
+  currency: GOLD_INGOT
+  lore:
+    1: "Superior foot protection"
+
+slot21:
+  name: "Netherite Helmet"
+  material: NETHERITE_HELMET
+  price: 4
+  currency: GOLD_BLOCK
+  lore:
+    1: "Ultimate head protection"
+
+slot22:
+  name: "Netherite Chestplate"
+  material: NETHERITE_CHESTPLATE
+  price: 6
+  currency: GOLD_BLOCK
+  lore:
+    1: "Ultimate body protection"
+
+slot23:
+  name: "Netherite Leggings"
+  material: NETHERITE_LEGGINGS
+  price: 6
+  currency: GOLD_BLOCK
+  lore:
+    1: "Ultimate leg protection"
+
+slot24:
+  name: "Netherite Boots"
+  material: NETHERITE_BOOTS
+  price: 4
+  currency: GOLD_BLOCK
+  lore:
+    1: "Ultimate foot protection"
+
+slot25:
+  name: "Turtle Shell"
+  material: TURTLE_HELMET
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "Underwater breathing headgear"
+
+slot26:
+  name: "Elytra"
+  material: ELYTRA
+  price: 6
+  currency: GOLD_BLOCK
+  lore:
+    1: "Wings for gliding"
+
+slot27:
+  name: "Shield"
+  material: SHIELD
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Basic defense tool"
+
+slot28:
+  name: "Totem of Undying"
+  material: TOTEM_OF_UNDYING
+  price: 5
+  currency: GOLD_BLOCK
+  lore:
+    1: "Saves you from death"

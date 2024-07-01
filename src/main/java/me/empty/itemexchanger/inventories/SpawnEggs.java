@@ -25,7 +25,7 @@ public class SpawnEggs implements InventoryHolder {
 
     private void init(){
         ItemStack item;
-        item = createItem("§7", Material.LIME_STAINED_GLASS,null);
+        item = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
         for (int i = 0; i < 10;i++){
             eggsinv.setItem(i,item);
         }

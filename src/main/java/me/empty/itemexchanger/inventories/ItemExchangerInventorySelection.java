@@ -2,6 +2,8 @@ package me.empty.itemexchanger.inventories;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemFlag;
@@ -24,10 +26,10 @@ public class ItemExchangerInventorySelection implements InventoryHolder {
         ItemStack item;
         //left
         for (int i = 0; i < 10;i++){
-            item = createItem("§7", Material.LIME_STAINED_GLASS,null);
+            item = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
             maininv.setItem(i,item);
         }
-        item = createItem("§7", Material.LIME_STAINED_GLASS,null);
+        item = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
         maininv.setItem(17,item);
         maininv.setItem(11,item);
         maininv.setItem(13,item);
@@ -35,7 +37,7 @@ public class ItemExchangerInventorySelection implements InventoryHolder {
 
 
         for (int i = 18; i < 27;i++){
-            item = createItem("§7", Material.LIME_STAINED_GLASS,null);
+            item = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
             maininv.setItem(i,item);
         }
         List<String> lore = new ArrayList<>();
@@ -101,8 +103,24 @@ public class ItemExchangerInventorySelection implements InventoryHolder {
         item.setItemMeta(meta);
         return item;
     }
+
+    public static ItemStack createSlotItem(String materialString, String name, List<String> lore) {
+        Material material = Material.valueOf(materialString);
+        ItemStack item = createItem(name, material, lore);
+        ItemMeta meta = item.getItemMeta();
+        meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        item.setItemMeta(meta);
+        return item;
+    }
+
+    public static String replaceString(String input) {
+        return input.replace("&", "\u00A7");
+    }
+
     @Override
     public Inventory getInventory() {
         return maininv;
     }
+    static ItemStack glasspane = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
+
 }

@@ -1,0 +1,224 @@
+slot1:
+  name: "Redstone Dust"
+  material: REDSTONE
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Basic redstone component"
+
+slot2:
+  name: "Redstone Torch"
+  material: REDSTONE_TORCH
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "A basic light source and signal transmitter"
+
+slot3:
+  name: "Redstone Block"
+  material: REDSTONE_BLOCK
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Compact storage and power source"
+
+slot4:
+  name: "Redstone Repeater"
+  material: REPEATER
+  price: 4
+  currency: IRON_NUGGET
+  lore:
+    1: "Extends redstone signals"
+
+slot5:
+  name: "Redstone Comparator"
+  material: COMPARATOR
+  price: 6
+  currency: IRON_NUGGET
+  lore:
+    1: "Compares redstone signals"
+
+slot6:
+  name: "Lever"
+  material: LEVER
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Simple on/off switch"
+
+slot7:
+  name: "Button (Stone)"
+  material: STONE_BUTTON
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Temporary power switch"
+
+slot8:
+  name: "Button (Wood)"
+  material: OAK_BUTTON
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Temporary power switch"
+
+slot9:
+  name: "Pressure Plate (Stone)"
+  material: STONE_PRESSURE_PLATE
+  price: 3
+  currency: IRON_NUGGET
+  lore:
+    1: "Trigger power with weight"
+
+slot10:
+  name: "Pressure Plate (Wood)"
+  material: OAK_PRESSURE_PLATE
+  price: 3
+  currency: IRON_NUGGET
+  lore:
+    1: "Trigger power with weight"
+
+slot11:
+  name: "Iron Door"
+  material: IRON_DOOR
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "A sturdy door for security"
+
+slot12:
+  name: "Wooden Door"
+  material: OAK_DOOR
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "A simple wooden door"
+
+slot13:
+  name: "Piston"
+  material: PISTON
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "A pushing mechanism"
+
+slot14:
+  name: "Sticky Piston"
+  material: STICKY_PISTON
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "A pulling mechanism with adhesive"
+
+slot15:
+  name: "Observer"
+  material: OBSERVER
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "Detects block changes"
+
+slot16:
+  name: "Dropper"
+  material: DROPPER
+  price: 2
+  currency: IRON_INGOT
+  lore:
+    1: "Drops items upon activation"
+
+slot17:
+  name: "Dispenser"
+  material: DISPENSER
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "Shoots items upon activation"
+
+slot18:
+  name: "Hopper"
+  material: HOPPER
+  price: 4
+  currency: IRON_INGOT
+  lore:
+    1: "Transfers items"
+
+slot19:
+  name: "Note Block"
+  material: NOTE_BLOCK
+  price: 3
+  currency: IRON_NUGGET
+  lore:
+    1: "Plays musical notes"
+
+slot20:
+  name: "Jukebox"
+  material: JUKEBOX
+  price: 2
+  currency: GOLD_NUGGET
+  lore:
+    1: "Plays music discs"
+
+slot21:
+  name: "Daylight Sensor"
+  material: DAYLIGHT_DETECTOR
+  price: 4
+  currency: IRON_NUGGET
+  lore:
+    1: "Detects daylight"
+
+slot22:
+  name: "Iron Trapdoor"
+  material: IRON_TRAPDOOR
+  price: 3
+  currency: IRON_INGOT
+  lore:
+    1: "A sturdy trapdoor"
+
+slot23:
+  name: "Wooden Trapdoor"
+  material: OAK_TRAPDOOR
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "A simple wooden trapdoor"
+
+slot24:
+  name: "Tripwire Hook"
+  material: TRIPWIRE_HOOK
+  price: 2
+  currency: IRON_NUGGET
+  lore:
+    1: "Activates redstone with string"
+
+slot25:
+  name: "Redstone Lamp"
+  material: REDSTONE_LAMP
+  price: 2
+  currency: GOLD_INGOT
+  lore:
+    1: "Emits light when powered"
+
+slot26:
+  name: "Target"
+  material: TARGET
+  price: 3
+  currency: IRON_NUGGET
+  lore:
+    1: "Emits redstone signal when hit"
+
+slot27:
+  name: "Minecart with Hopper"
+  material: HOPPER_MINECART
+  price: 5
+  currency: IRON_INGOT
+  lore:
+    1: "Transfers items in motion"
+
+slot28:
+  name: "Minecart with TNT"
+  material: TNT_MINECART
+  price: 4
+  currency: IRON_INGOT
+  lore:
+    1: "Explosive minecart"
+  ```
