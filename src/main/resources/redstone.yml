@@ -201,8 +201,8 @@ slot25:
 slot26:
   name: "Target"
   material: TARGET
-  price: 3
-  currency: IRON_NUGGET
+  price: 4
+  currency: IRON_INGOT
   lore:
     1: "Emits redstone signal when hit"
 

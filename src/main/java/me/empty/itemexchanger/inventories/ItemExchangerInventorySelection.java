@@ -2,8 +2,6 @@ package me.empty.itemexchanger.inventories;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemFlag;
@@ -121,8 +119,4 @@ public class ItemExchangerInventorySelection implements InventoryHolder {
         return maininv;
     }
     static ItemStack glasspane = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
-
 }
-
-//TODO
-//IMPLEMENT MESSAGE CONFIG

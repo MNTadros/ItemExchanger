@@ -2,7 +2,14 @@ name: ItemExchanger
 version: '${project.version}'
 main: me.empty.itemexchanger.ItemExchanger
 api-version: 1.20
+description: A plugin made to simplify obtaining some items through a item exchange!
+author: MNT
 commands:
   exchanger:
-    description: Opens item exchange interface
-    usage: /exchanger
+    description: A command to open the exchange interface
+    aliases:
+      - exchange
+      - exc
+    permission: itemexchanger.exchange
+    permission-message: You do not have permission!
+    usage: /<command>

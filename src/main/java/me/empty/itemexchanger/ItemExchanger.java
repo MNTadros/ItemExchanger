@@ -1,9 +1,7 @@
 package me.empty.itemexchanger;
 
 import me.empty.itemexchanger.commands.OpenItemExchanger;
-import me.empty.itemexchanger.events.InventoryEvents;
-import me.empty.itemexchanger.events.RedstoneShopEvents;
-import me.empty.itemexchanger.events.SpawnEggsShopEvents;
+import me.empty.itemexchanger.events.*;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -15,23 +13,26 @@ import java.io.IOException;
 
 public final class ItemExchanger extends JavaPlugin {
 
-    private File redstonef,itemsf,armorf;
-    private FileConfiguration redstone,items,armor;
+    private File redstonef,itemsf,armorf,spawneggsf;
+    private FileConfiguration redstone,items,armor,spawneggs;
 
     @Override
     public void onEnable() {
         // Plugin startup logic
         //config init
+        createSpawneggs();
         createArmor();
         createRedstone();
         createItems();
         getConfig().options().copyDefaults();
         saveDefaultConfig();
 
-        getCommand("exchanger").setExecutor(new OpenItemExchanger());
+        getCommand("exchanger").setExecutor(new OpenItemExchanger(this));
         getServer().getPluginManager().registerEvents(new InventoryEvents(this),this);
         getServer().getPluginManager().registerEvents(new SpawnEggsShopEvents(this),this);
         getServer().getPluginManager().registerEvents(new RedstoneShopEvents(this),this);
+        getServer().getPluginManager().registerEvents(new ItemsShopEvents(this),this);
+        getServer().getPluginManager().registerEvents(new ArmorShopEvents(this),this);
 
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "§l[ItemExchanger] §6Plugin enabled!");
     }
@@ -94,6 +95,27 @@ public final class ItemExchanger extends JavaPlugin {
             e.printStackTrace();
         }
     }
+
+
+    public FileConfiguration getSpawneggs() {
+        return this.spawneggs;
+    }
+    private void createSpawneggs() {
+        spawneggsf = new File(getDataFolder(), "spawneggs.yml");
+        if (!spawneggsf.exists()) {
+            spawneggsf.getParentFile().mkdirs();
+            saveResource("spawneggs.yml", false);
+        }
+
+        spawneggs = new YamlConfiguration();
+        try {
+            spawneggs.load(spawneggsf);
+        } catch (IOException | InvalidConfigurationException e) {
+            e.printStackTrace();
+        }
+    }
 }
-//TODO
-//CREATE SPAWNEGGS FILE
+
+
+
+

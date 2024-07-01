@@ -9,6 +9,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
+import static me.empty.itemexchanger.inventories.ItemExchangerInventorySelection.replaceString;
+
 public class InventoryEvents implements Listener {
     private final ItemExchanger plugin;
     public InventoryEvents(ItemExchanger plugin){
@@ -39,7 +41,7 @@ public class InventoryEvents implements Listener {
                     event.getCurrentItem().getType() == Material.BARRIER && event.getClickedInventory().getHolder() instanceof Redstone ||
                     event.getCurrentItem().getType() == Material.BARRIER && event.getClickedInventory().getHolder() instanceof Items||
                     event.getCurrentItem().getType() == Material.BARRIER && event.getClickedInventory().getHolder() instanceof Armor) {
-                player.sendMessage("§6[!] Closing item exchanger! [!]");
+                player.sendMessage(replaceString(plugin.getConfig().getString("message-config-closing")));
                 player.closeInventory();
             }
 
