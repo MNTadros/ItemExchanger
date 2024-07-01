@@ -102,7 +102,8 @@ public class SpawnEggs implements InventoryHolder {
         slot7 = createItem("§6§lBee Spawn Egg", Material.BEE_SPAWN_EGG, slot7lore);
         eggsinv.setItem(16, slot7);
     }
-
+//TODO
+    //IMPLEMENT CONFIG UTILITY FOR SPAWNEGGS
     @Override
     public Inventory getInventory() {
         return eggsinv;

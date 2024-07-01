@@ -11,7 +11,9 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ItemExchangerInventorySelection implements InventoryHolder {
     public Inventory maininv;
@@ -104,13 +106,10 @@ public class ItemExchangerInventorySelection implements InventoryHolder {
         return item;
     }
 
-    public static ItemStack createSlotItem(String materialString, String name, List<String> lore) {
-        Material material = Material.valueOf(materialString);
-        ItemStack item = createItem(name, material, lore);
-        ItemMeta meta = item.getItemMeta();
-        meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-        item.setItemMeta(meta);
-        return item;
+    public static String formatCurrency(String price, String currency) {
+        return price + " " + Arrays.stream(currency.split("_"))
+                .map(word -> word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase())
+                .collect(Collectors.joining(" "));
     }
 
     public static String replaceString(String input) {
@@ -124,3 +123,6 @@ public class ItemExchangerInventorySelection implements InventoryHolder {
     static ItemStack glasspane = createItem("§7", Material.LIME_STAINED_GLASS_PANE,null);
 
 }
+
+//TODO
+//IMPLEMENT MESSAGE CONFIG

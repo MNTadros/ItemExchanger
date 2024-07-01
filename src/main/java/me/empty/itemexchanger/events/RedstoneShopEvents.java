@@ -295,8 +295,8 @@ public class RedstoneShopEvents implements Listener {
 
 // Slot 28: Minecart with TNT
             if (event.getCurrentItem().getType() == Material.TNT_MINECART && event.getClickedInventory().getHolder() instanceof Redstone) {
-                if (player.getInventory().contains(Material.GUNPOWDER, 2)) {
-                    player.getInventory().removeItem(new ItemStack(Material.GUNPOWDER, 2));
+                if (player.getInventory().contains(Material.IRON_INGOT, 4)) {
+                    player.getInventory().removeItem(new ItemStack(Material.IRON_INGOT, 4));
                     player.getInventory().addItem(new ItemStack(Material.TNT_MINECART, 1));
                 } else {
                     player.sendMessage("§6[!] Missing Items [!]");

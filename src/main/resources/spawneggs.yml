@@ -1,0 +1,55 @@
+slot1:
+  name: "Creeper Spawn Egg"
+  material: CREEPER_SPAWN_EGG
+  price: 3
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fAn explosive creature!"
+
+slot2:
+  name: "Wolf Spawn Egg"
+  material: WOLF_SPAWN_EGG
+  price: 2
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fA furry friend!"
+
+slot3:
+  name: "Phantom Spawn Egg"
+  material: PHANTOM_SPAWN_EGG
+  price: 4
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fA flying menace!"
+
+slot4:
+  name: "Blaze Spawn Egg"
+  material: BLAZE_SPAWN_EGG
+  price: 5
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fA fiery creature!"
+
+slot5:
+  name: "Guardian Spawn Egg"
+  material: GUARDIAN_SPAWN_EGG
+  price: 3
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fA water creature!"
+
+slot6:
+  name: "Zombie Villager Spawn Egg"
+  material: ZOMBIE_VILLAGER_SPAWN_EGG
+  price: 2
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fA zombie villager!"
+
+slot7:
+  name: "Bee Spawn Egg"
+  material: BEE_SPAWN_EGG
+  price: 3
+  currency: GOLD_BLOCK
+  lore:
+    1: "§fA dangerous insect!"
