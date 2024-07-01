@@ -1,0 +1,10 @@
+#WIP
+#eggs:
+#  slot1:
+#    name: "Creeper Creeper egg"
+#    material: DIAMOND_BLOCK
+#    price: 4
+#    currency: GOLD_BLOCK
+#    lore:
+#      1: ""
+test: "x"
